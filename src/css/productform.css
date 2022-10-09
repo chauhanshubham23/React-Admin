@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.switch{
+    margin-left: 10%;
+}
+.labelText{
+    font-size: 50px;
+}
+input{
+    height: 40px;
+}
+#codefield{
+    width: 83%;
+}
+#namefield{
+    width: 40%;
+}
+#qtyfield{
+    width: 28%;
+}
+#switchbtn{
+    background-color: rgb(249, 11, 11);
+    width: 22%;
+    height: 4vh;
+}
+
+#cancelbtn{
+    background-color: rgb(158, 160, 160);
+    color: black;
+    width: 10%;
+    height: 7vh;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 20px;
+}
+#submitbtn{
+    background-color: blue;
+    color: #fff;
+    width: 10%;
+    height: 7vh;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+.star{
+    color: red;
+ }
+ .productForm{
+     width: 71%;
+ }
+ .formwidth{
+     width: 35%;
+ }
+ input[type=text]{
+     border: none;
+     border-radius: 0;
+ }
+ 
+ button[type = button], button[type = reset]{
+     border-radius: 20px;
+ }
+ .submitbtn{
+     background-color: #0548ae;
+     width: 11%;
+ }
+ .btncancel{
+     width: 10%;
+ }
+ 
+ 
+ input[type = checkbox].toggle{
+     display: none;
+ }
+ input[type = checkbox].toggle + label{
+     display: inline-block;
+     height: 50px;
+     width: 150px;
+     position: relative;
+     font-size: 15px;
+     border: 2px solid white;
+     background-color: aliceblue;
+     
+     padding: 0;
+     margin: 0;
+     cursor: pointer;
+     box-sizing: border-box;
+     transition: all 0.3s ease;
+ }
+ input[type = checkbox].toggle + label:before{
+     position: absolute;
+     top: 4px;
+     height: 33px;
+     width: 33px;
+     content: '';
+     transition: all 0.3s ease;
+     border-radius: 50%;
+     z-index: 3;
+ }
+ 
+ input[type = checkbox].toggle + label:after{
+     width: 140px;
+     text-align: center;
+     z-index: 2;
+     text-transform: capitalize;
+     position: relative;
+     top: 26%;
+     transform: translateY(-50%);
+     text-overflow: ellipsis;
+     overflow: hidden;
+     
+ }
+ input[type = checkbox].toggle + label.rounded{
+     border-radius: 30px;
+    
+ }
+ input[type = checkbox].toggle + label.rounded:before{
+     border-radius: 50%;
+     
+ }
+ input[type = checkbox].toggle:not(:checked) + label{
+     background-color: transparent;
+     text-align: center;
+ }
+ input[type = checkbox].toggle:not(:checked) + label:after{
+     content: attr(data-unchecked);
+     right: 0;
+     /* left: auto; */
+     left: 20px;
+     opacity: 1;
+     color: rgb(235, 101, 12);
+    
+ }
+ input[type = checkbox].toggle:not(:checked) + label:before{
+     left: 4px;
+     background-color: rgb(235, 101, 12);
+ }
+ input[type = checkbox].toggle:checked + label{
+     text-align: left;
+     border-color: rgb(235, 101, 12);
+ }
+ input[type = checkbox].toggle:checked + label:after{
+    content: attr(data-checked);
+    left: 30px;
+    right: auto;
+    opacity: 1;
+    color: rgb(235, 101, 12);
+ }
+ input[type = checkbox].toggle:checked + label:before{
+     left: 94px;
+     background-color: rgb(235, 101, 12);
+  }
