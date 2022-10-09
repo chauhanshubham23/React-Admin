@@ -42,6 +42,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Output
 ### Home Page
 ![home](https://user-images.githubusercontent.com/59802345/194760429-5c34439f-2530-451e-bd1b-7c6bfd2ca6a3.JPG)
+### Product Page
+![product](https://user-images.githubusercontent.com/59802345/194760506-c100dd94-ff7d-440b-830e-114ad1f619fe.JPG)
+### Form page
+![form](https://user-images.githubusercontent.com/59802345/194760527-15e45a9a-3084-4132-9e49-b601aaa436d3.JPG)
 
 ## Learn More
 
